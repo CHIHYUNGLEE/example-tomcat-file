@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context  docBase="D:\eclipse-r6-201909\kcube-r6\output" sessionCookieName="CSKCUBETJSESSIONID" useHttpOnly="false" reloadable="true"> 
+	<Resource
+	    auth="Container"
+	    description="[jdbc/kcube] for KCUBE R6 Applications"
+	    name="jdbc/kcube"
+	    type="javax.sql.DataSource"
+	    driverClassName="core.log.jdbc.driver.OracleDriver"
+	    url="jdbc:oracle:thin:@125.140.114.5:1521:orcl"
+	    username="r6test"
+	    password="R6QWERTY"
+	    maxIdle="4"
+	    maxActive="50"
+	    maxWait="5000">
+</Resource>
+<!--<Resource
+	    auth="Container"
+	    description="[jdbc/kcube] for KCUBE R6 Applications"
+	    name="jdbc/kcube"
+	    type="javax.sql.DataSource"
+	    driverClassName="core.log.jdbc.driver.OracleDriver"
+	    url="jdbc:oracle:thin:@125.140.114.5:1521:orcl"
+	    username="EKPR6"
+	    password="r6cselql5%"
+	    maxIdle="4"
+	    maxActive="50"
+	    maxWait="5000">
+</Resource> -->
+</Context>
