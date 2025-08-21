@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context  
+	    docBase="D:\eclipse-r6-201909\local-r6-ext\output" sessionCookieName="LOCALJSESSIONID" useHttpOnly="false" reloadable="true" > 
+<!-- <Resource
+	    auth="Container"
+	    description="[jdbc/kcube] for KCUBE R6 Applications"
+	    name="jdbc/kcube"
+	    type="javax.sql.DataSource"
+	    driverClassName="oracle.jdbc.driver.OracleDriver"
+	    url="jdbc:oracle:thin:@125.140.114.205:2521:ORCL"
+	    username="R6_KDISSW"
+	    password="KDISSW123"
+	    maxIdle="4"
+	    maxActive="50"
+	    maxWait="5000">
+</Resource> -->
+<Resource
+	    auth="Container"
+	    description="[jdbc/kcube] for KCUBE R6 Applications"
+	    name="jdbc/kcube"
+	    type="javax.sql.DataSource"
+	    driverClassName="core.log.jdbc.driver.OracleDriver"
+	    url="jdbc:oracle:thin:@localhost:1521:ORCL"
+	    username="R6TEST"
+	    password="R6TEST"
+	    maxIdle="4"
+	    maxActive="50"
+	    maxWait="5000">
+</Resource>
+</Context>
